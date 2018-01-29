@@ -9,7 +9,6 @@ var Word = function() {
 	this.Word = Movies[PickNumber(0, Movies.length-1)];
 	this.allLetters = [];
 	this.Word.split('').forEach((aLetter) => this.allLetters.push(new Letter(aLetter)))
-console.log("In Word constructor - " + this.Word);
 
 	this.contains = function(aLetter) {
 		var test = false;
