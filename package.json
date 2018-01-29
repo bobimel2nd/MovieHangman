@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "Hangman",
+  "main": "Hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobimel2nd/Hangman-CLI.git"
+  },
+  "author": "Bob Imel II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobimel2nd/Hangman-CLI/issues"
+  },
+  "homepage": "https://github.com/bobimel2nd/Hangman-CLI#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1"
+  }
+}
